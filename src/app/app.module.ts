@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
 import { AppComponent } from './start/app.component';
 import { NavComponent } from './shared/navbar.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
     imports: [
@@ -9,7 +10,8 @@ import { NavComponent } from './shared/navbar.component';
     ],
     declarations: [
         AppComponent,
-        NavComponent
+        NavComponent,
+        HomeComponent
     ],
     bootstrap: [ AppComponent ]
 })
