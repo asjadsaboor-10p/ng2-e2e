@@ -11,4 +11,5 @@ import 'rxjs';
 // You can import js, ts, css, sass, ...
 import 'script!jquery';
 import 'foundation-sites/dist/js/foundation.js';
+import 'firebase/firebase.js';
 import '../public/sass/styles.scss';
