@@ -56,14 +56,14 @@ export class BlogAdminComponent implements OnInit {
     }
 
     updatePost(single: Blog){
-       // this.blogAdminSVC.editPost(single);
+        this.blogAdminSVC.editPost(single);
         this.formDisplay = true;
     }
 
     deletePost(single: Blog){
         let verify = confirm(`Are you sure you want to delete this post?`)
         if (verify == true) {
-           // this.blogAdminSVC.removePost(single);
+            this.blogAdminSVC.removePost(single);
             this.router.navigate(['/admin/']);
         } else {
             alert('Nothing deleted!');
